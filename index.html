@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana NFT Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded shadow-md w-full max-w-lg">
+        <h1 class="text-2xl font-bold mb-6 text-center">Solana NFT Portfolio</h1>
+        <button id="connectWallet" class="mb-4 w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700">Connect Wallet</button>
+        <div id="walletAddressDisplay" class="mb-4 text-center text-gray-700"></div>
+        <div id="tokenDisplay" class="mb-6">
+            <!-- Tokens will be displayed here -->
+        </div>
+        <div id="nftDisplay" class="grid grid-cols-1 gap-4">
+            <!-- NFTs will be displayed here -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.31.0/lib/index.iife.min.js"></script>
+    <script src="https://unpkg.com/@solana/wallet-adapter-wallets"></script>
+    <script src="https://unpkg.com/@solana/wallet-adapter-base"></script>
+    <script src="https://unpkg.com/@solana/wallet-adapter-react"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moralis/dist/moralis.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

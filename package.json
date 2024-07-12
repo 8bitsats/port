@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "servor --reload"
+  },
+  "dependencies": {
+    "servor": "^4.0.2",
+    "solana-wallet": "^1.0.2"
+  }
+}
